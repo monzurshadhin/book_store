@@ -1,0 +1,144 @@
+
+/*book section*/
+.book-section{
+    margin: 70px 0px;
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),url("https://t3.ftcdn.net/jpg/05/59/76/82/360_F_559768283_VlC6LPmjv18zWHsYEF858Jl8wJXnZcNX.jpg");
+    height: 500px;
+    padding-top: 200px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+/*book-card */
+.book-card .card-img-top{
+    height: 500px;
+
+
+}
+.book-card{
+    border-radius: 18px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.book-card .card-body{
+    opacity: 0;
+    height: 50%;
+    width: 100%;
+    transition: 0.5s;
+    position: absolute;
+    color: #fffefe;
+    margin: auto;
+    text-align: center;
+}
+.book-card:hover .card-body{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+}
+.book-card h5{
+    font-size: 30px;
+}
+.book-card-btn{
+    background-color: #2b2b2b;
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+/*details-card*/
+.details-card .card-title{
+    font-size: 35px;
+}
+.details-card .description{
+    text-align: justify;
+    margin: 30px 0px;
+}
+.details-card button{
+    background-color: #2b2b2b;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+/*footer*/
+footer {
+    background-color: #2b2b2b;
+    padding-top: 77px;
+    padding-bottom: 77px;
+}
+.footer-location {
+    color: white;
+
+    padding-left: 20px;
+    display: inline-block;
+
+}
+.footer-location li{
+    margin-right: 20px;
+    display: inline-block;
+}
+.footer-location-div {
+    margin-top: 20px;
+}
+.company h5 {
+    color: white;
+    font-weight: 600px;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.company li {
+    list-style: none;
+    padding-top: 10px;
+    color: white;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.quick-links h5 {
+    color: white;
+    font-weight: 600;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.quick-links li {
+    list-style: none;
+    padding-top: 10px;
+    color: white;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.about-us h5 {
+    color: white;
+    font-weight: 600px;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.about-us p {
+    list-style: none;
+    padding-top: 10px;
+    color: white;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.about-us ul {
+    list-style: none;
+    display: flex;
+    padding-left: 30px;
+}
